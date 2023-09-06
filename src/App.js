@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
+
 import Header from './Header/Header.js';
 import Nav from './Nav/Nav.js';
 import Main from './Main/Main.js';
@@ -12,7 +14,9 @@ function App() {
         <Header />
         <Nav />
       </div>
-      <Main />
+      <Routes>
+        <Route path='/' element={<Main />} />
+      </Routes>
       <Footer />
     </div>
   );

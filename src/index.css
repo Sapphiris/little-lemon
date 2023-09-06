@@ -37,6 +37,10 @@ h3 {
   font-weight: 500;
 }
 
+a:visited {
+  color: black;
+}
+
 p {
   font-size: 16px;
   font-weight: 300;
@@ -48,6 +52,7 @@ button {
   border-radius: 16px;
   background-color: #F4CE14;
   padding: 15px 25px 15px 25px;
+  cursor: pointer;
 }
 
 img {
