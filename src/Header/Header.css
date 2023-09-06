@@ -1,0 +1,13 @@
+.LemonLogo {
+    width: 75%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+    .LemonLogo {
+        width: 275px;
+        height: auto;
+        margin-bottom: 0;
+    }
+}
