@@ -14,7 +14,7 @@ const Intro = () => {
 				</p>
 				<button>Reserve a Table</button>
 			</div>
-			<img src={food1} alt="Bread"></img>
+			<img src={food1} alt="Bread"/>
 		</section>
 	);
 };
