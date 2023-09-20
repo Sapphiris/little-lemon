@@ -1,38 +1,38 @@
 .intro {
-    background-color: #495E57;
-    color: white;
-    display: flex;
-    gap: 30px;
+	background-color: #495e57;
+	color: white;
+	display: flex;
+	gap: 30px;
 }
 
 .intro h1 {
-    color: #F4CE14;
+	color: #f4ce14;
 }
 
 .intro p {
-    margin: 25px 0px 50px 0px;
-    letter-spacing: 1px;
-    line-height: 1.75rem;
+	margin: 25px 0px 50px 0px;
+	letter-spacing: 1px;
+	line-height: 1.75rem;
 }
 
 .intro img {
-    display: none;
-    box-shadow: 10px 10px 50px -5px rgba(0,0,0,0.75);
+	display: none;
+	box-shadow: 10px 10px 50px -5px rgba(0, 0, 0, 0.75);
 }
 
 @media screen and (min-width: 1024px) {
-    .intro {
-        text-align: left;
-    }
+	.intro {
+		text-align: left;
+	}
 
-    .intro-divide {
-        width: 50%;
-    }
+	.intro-divide {
+		width: 50%;
+	}
 
-    .intro img {
-        display: flex;
-        position: absolute;
-        left: 60vw;
-        width: 350px;
-    }
+	.intro img {
+		display: flex;
+		position: absolute;
+		left: 60vw;
+		width: 350px;
+	}
 }

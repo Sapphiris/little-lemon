@@ -8,18 +8,18 @@ import Main from './Main/Main.js';
 import Footer from './Footer/Footer.js';
 
 function App() {
-  return (
-    <div className="container">
-      <div className="header-nav-container">
-        <Header />
-        <Nav />
-      </div>
-      <Routes>
-        <Route path='/' element={<Main />} />
-      </Routes>
-      <Footer />
-    </div>
-  );
+	return (
+		<div className="container">
+			<div className="header-nav-container">
+				<Header />
+				<Nav />
+			</div>
+			<Routes>
+				<Route path="/" element={<Main />} />
+			</Routes>
+			<Footer />
+		</div>
+	);
 }
 
 export default App;

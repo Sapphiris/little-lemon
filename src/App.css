@@ -1,27 +1,26 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    text-align: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	text-align: center;
 }
 
 .header-nav-container {
-    display: column;
-    background-color: white;
-    color: #333;
-    padding: 30px;
-    margin-bottom: 25px;
-    text-align: center;
+	display: column;
+	background-color: white;
+	color: #333;
+	padding: 30px;
+	margin-bottom: 25px;
+	text-align: center;
 }
-
 
 /* Media Query for Tablets and Larger Screens */
 @media screen and (min-width: 1024px) {
-    .header-nav-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 30px 200px 30px 200px;
-        gap: 50px;
-    }
+	.header-nav-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 30px 200px 30px 200px;
+		gap: 50px;
+	}
 }
