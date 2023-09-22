@@ -1,0 +1,48 @@
+.reserve {
+	background-color: #495e57;
+	color: white;
+	padding: 50px 75px 50px 75px;
+}
+
+.reserve h1 {
+    color: #f4ce14;
+    margin-bottom: 25px;
+}
+
+.reserve-form {
+	display: flex;
+    flex-direction: column;
+	max-width: 200px;
+	gap: 10px;
+    margin: auto;
+}
+
+.reserve-form label {
+    font-size: 20px;
+}
+
+.reserve-form input, .reserve-form select {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 16px;
+    background-color: #edefee;
+}
+
+@media screen and (min-width: 1024px) {
+	.reserve {
+		padding: 100px 200px 100px 200px;
+	}
+
+    .reserve-form {
+        max-width: 250px;
+    }
+
+    .reserve-form label {
+        font-size: 24px;
+    }
+
+    .reserve-form input, .reserve-form select {
+
+        font-size: 20px;
+    }
+}

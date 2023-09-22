@@ -5,6 +5,8 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './Header/Header.js';
 import Nav from './Nav/Nav.js';
 import Main from './Main/Main.js';
+import Reserve from './Reserve/Reserve';
+import Confirm from './Reserve/Confirm';
 import Footer from './Footer/Footer.js';
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
 			</div>
 			<Routes>
 				<Route path="/" element={<Main />} />
+				<Route path="/reserve" element={<Reserve />} />
+				<Route path="/confirm" element={<Confirm />} />
 			</Routes>
 			<Footer />
 		</div>

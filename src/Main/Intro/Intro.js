@@ -1,6 +1,7 @@
-import React from 'react';
-import './Intro.css';
-import food1 from '../../images/food1.jpg';
+import React from "react";
+import "./Intro.css";
+import { Link } from "react-router-dom";
+import food1 from "../../images/food1.jpg";
 
 const Intro = () => {
 	return (
@@ -12,9 +13,11 @@ const Intro = () => {
 					We are a family-owned Mediterranean restaurant, focused on traditional recipes
 					served with a modern twist.
 				</p>
-				<button>Reserve a Table</button>
+				<Link to="/reserve">
+					<button>Reserve a Table</button>
+				</Link>
 			</div>
-			<img src={food1} alt="Bread"/>
+			<img src={food1} alt="Bread" />
 		</section>
 	);
 };
