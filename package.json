@@ -1,7 +1,6 @@
 {
   "name": "little-lemon",
   "version": "0.1.0",
-  "homepage": "https://sapphiris.github.io/little-lemon",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
