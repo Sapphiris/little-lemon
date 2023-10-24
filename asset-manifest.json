@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sapphiris/little-lemon/static/css/main.9b6bb938.css",
-    "main.js": "/sapphiris/little-lemon/static/js/main.2fd95981.js",
+    "main.js": "/sapphiris/little-lemon/static/js/main.be1ee002.js",
     "static/js/787.a2f6b77c.chunk.js": "/sapphiris/little-lemon/static/js/787.a2f6b77c.chunk.js",
     "static/media/food1.jpg": "/sapphiris/little-lemon/static/media/food1.088c3dd386b046ca6ce7.jpg",
     "static/media/chicken.png": "/sapphiris/little-lemon/static/media/chicken.ec3d5d0afd20a7d7c241.png",
     "static/media/stew.png": "/sapphiris/little-lemon/static/media/stew.0f995b298a65bcfa69f3.png",
     "static/media/salad.jpg": "/sapphiris/little-lemon/static/media/salad.da4153859902e076458c.jpg",
-    "static/media/Logo.svg": "/sapphiris/little-lemon/static/media/Logo.f72c913c48c5334f78f2c336ec36f22b.svg",
+    "static/media/Logo.svg": "/sapphiris/little-lemon/static/media/Logo.fd87fc34e15316b670ea115ce700cd15.svg",
     "static/media/ruby.png": "/sapphiris/little-lemon/static/media/ruby.1df303ddb7201fdc631b.png",
     "static/media/tina.png": "/sapphiris/little-lemon/static/media/tina.843fe60b16d6217095ef.png",
     "static/media/albert.png": "/sapphiris/little-lemon/static/media/albert.b6d2fa58d5aa0064d1c4.png",
@@ -17,11 +17,11 @@
     "index.html": "/sapphiris/little-lemon/index.html",
     "static/media/lemon.svg": "/sapphiris/little-lemon/static/media/lemon.58844e85a85c0a88e251eb8b5a0d7227.svg",
     "main.9b6bb938.css.map": "/sapphiris/little-lemon/static/css/main.9b6bb938.css.map",
-    "main.2fd95981.js.map": "/sapphiris/little-lemon/static/js/main.2fd95981.js.map",
+    "main.be1ee002.js.map": "/sapphiris/little-lemon/static/js/main.be1ee002.js.map",
     "787.a2f6b77c.chunk.js.map": "/sapphiris/little-lemon/static/js/787.a2f6b77c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b6bb938.css",
-    "static/js/main.2fd95981.js"
+    "static/js/main.be1ee002.js"
   ]
 }
